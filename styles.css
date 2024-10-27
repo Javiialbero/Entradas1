@@ -1,0 +1,13 @@
+h1.titulo{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+div.entrada{
+    text-align: center;
+    background-color: chocolate;
+}
+button.Solicitar{
+   background-color: green;
+   color: azure;
+}

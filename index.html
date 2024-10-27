@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Javier Albero">
+    <meta name="description" content="Plantilla valencia">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/1705313985escudo_vcf_small.png" type="image/png">
+    
+    <title>Valencia FC</title>
+    <script>
+        function entrada(){
+            alert("¡Tus entradas se han solicitado correctamente!")
+        location.reload}
+    </script>
+</head>
+<body>
+    
+    <h1 class="titulo">Entradas para el Partido</h1>
+   
+    <div class="entrada">
+        
+        <hr>
+            <p>Nombre Completo<input type="text" id="name" name="name" required></p>
+            <p>Correo Electrónico <input type="text" id="email" name="email" required></p>
+            
+            <p>Tipo de Entrada 
+                <select id="tipo_ticket" name="tipo_ticket" required>
+                <option value="general">General</option>
+                <option value="vip">VIP</option>
+                </select>
+                
+            </p>  
+            <p>Cantidad de entradas<input type="number" id="cantidad" name="cantidad" min="1" max="10" required></p>
+
+            <button onclick="entrada()" type="submit" class="Solicitar" >Solicitar Entradas</button>
+    </div>
+    
+</body>
+</html>
